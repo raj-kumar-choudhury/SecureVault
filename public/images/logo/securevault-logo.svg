@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
+  <title id="title">SecureVault SV logo</title>
+  <desc id="desc">Green and blue SV monogram inside a shield with a lock and cloud.</desc>
+  <defs>
+    <linearGradient id="shieldGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7CFF2B"/>
+      <stop offset="0.45" stop-color="#21C45B"/>
+      <stop offset="1" stop-color="#087A3D"/>
+    </linearGradient>
+    <linearGradient id="shieldBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#21D7FF"/>
+      <stop offset="0.5" stop-color="#078BEA"/>
+      <stop offset="1" stop-color="#0754C8"/>
+    </linearGradient>
+    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.45" stop-color="#B9C7D1"/>
+      <stop offset="0.75" stop-color="#F7FAFC"/>
+      <stop offset="1" stop-color="#7C8D9A"/>
+    </linearGradient>
+    <linearGradient id="cloud" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7EEBFF"/>
+      <stop offset="1" stop-color="#087CEB"/>
+    </linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
+      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-opacity=".22"/>
+    </filter>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="180%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <ellipse cx="360" cy="648" rx="250" ry="22" fill="#B9D7E8" opacity=".45" filter="url(#soft)"/>
+
+  <g filter="url(#shadow)">
+    <path d="M132 440c-44 0-80-31-80-70 0-34 27-63 63-69 8-53 54-93 109-93 28 0 54 10 74 26 20-39 61-65 108-65 65 0 117 47 125 109 47 4 84 42 84 88 0 49-41 89-91 89H132z"
+          fill="url(#cloud)" stroke="#1688F0" stroke-width="5"/>
+    <path d="M132 440c-44 0-80-31-80-70 0-34 27-63 63-69 8-53 54-93 109-93 28 0 54 10 74 26 20-39 61-65 108-65 65 0 117 47 125 109 47 4 84 42 84 88 0 49-41 89-91 89H132z"
+          fill="none" stroke="#D8F7FF" stroke-width="9" opacity=".8"/>
+  </g>
+
+  <g filter="url(#shadow)">
+    <path d="M360 92 L548 150 L535 390 C527 515 456 594 360 632 C264 594 193 515 185 390 L172 150 Z"
+          fill="url(#silver)"/>
+    <path d="M360 116 L518 165 L506 383 C499 491 440 558 360 596 Z"
+          fill="url(#shieldBlue)"/>
+    <path d="M360 116 L202 165 L214 383 C221 491 280 558 360 596 Z"
+          fill="url(#shieldGreen)"/>
+    <path d="M360 116V596" stroke="#FFFFFF" stroke-opacity=".45" stroke-width="5"/>
+  </g>
+
+  <!-- SV monogram -->
+  <g filter="url(#shadow)">
+    <path d="M335 220 H260 C216 220 188 247 188 286 C188 319 207 339 245 348 L291 359 C307 363 314 370 314 381 C314 394 303 402 284 402 H202"
+          fill="none" stroke="#C8FF58" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M389 220 L430 407 L475 325 L520 407 L560 220"
+          fill="none" stroke="#19C9FF" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- lock -->
+  <g filter="url(#shadow)">
+    <path d="M318 292 V266 C318 225 346 198 380 198 C414 198 442 225 442 266 V292"
+          fill="none" stroke="url(#silver)" stroke-width="24" stroke-linecap="round"/>
+    <circle cx="380" cy="375" r="78" fill="url(#silver)" stroke="#8195A4" stroke-width="5"/>
+    <rect x="332" y="335" width="96" height="84" rx="16" fill="#EEF4F7"/>
+    <circle cx="380" cy="372" r="15" fill="#09243B"/>
+    <path d="M380 372v30" stroke="#09243B" stroke-width="12" stroke-linecap="round"/>
+  </g>
+
+  <path d="M228 170 Q360 118 492 170" fill="none" stroke="#FFFFFF" stroke-width="7" opacity=".65"/>
+</svg>
