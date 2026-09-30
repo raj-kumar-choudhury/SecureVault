@@ -1,71 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 720" role="img" aria-labelledby="title desc">
-  <title id="title">SecureVault SV logo</title>
-  <desc id="desc">Green and blue SV monogram inside a shield with a lock and cloud.</desc>
-  <defs>
-    <linearGradient id="shieldGreen" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#7CFF2B"/>
-      <stop offset="0.45" stop-color="#21C45B"/>
-      <stop offset="1" stop-color="#087A3D"/>
-    </linearGradient>
-    <linearGradient id="shieldBlue" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#21D7FF"/>
-      <stop offset="0.5" stop-color="#078BEA"/>
-      <stop offset="1" stop-color="#0754C8"/>
-    </linearGradient>
-    <linearGradient id="silver" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#FFFFFF"/>
-      <stop offset="0.45" stop-color="#B9C7D1"/>
-      <stop offset="0.75" stop-color="#F7FAFC"/>
-      <stop offset="1" stop-color="#7C8D9A"/>
-    </linearGradient>
-    <linearGradient id="cloud" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#7EEBFF"/>
-      <stop offset="1" stop-color="#087CEB"/>
-    </linearGradient>
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%">
-      <feDropShadow dx="0" dy="12" stdDeviation="12" flood-opacity=".22"/>
-    </filter>
-    <filter id="soft" x="-30%" y="-30%" width="160%" height="180%">
-      <feGaussianBlur stdDeviation="10"/>
-    </filter>
-  </defs>
-
-  <ellipse cx="360" cy="648" rx="250" ry="22" fill="#B9D7E8" opacity=".45" filter="url(#soft)"/>
-
-  <g filter="url(#shadow)">
-    <path d="M132 440c-44 0-80-31-80-70 0-34 27-63 63-69 8-53 54-93 109-93 28 0 54 10 74 26 20-39 61-65 108-65 65 0 117 47 125 109 47 4 84 42 84 88 0 49-41 89-91 89H132z"
-          fill="url(#cloud)" stroke="#1688F0" stroke-width="5"/>
-    <path d="M132 440c-44 0-80-31-80-70 0-34 27-63 63-69 8-53 54-93 109-93 28 0 54 10 74 26 20-39 61-65 108-65 65 0 117 47 125 109 47 4 84 42 84 88 0 49-41 89-91 89H132z"
-          fill="none" stroke="#D8F7FF" stroke-width="9" opacity=".8"/>
-  </g>
-
-  <g filter="url(#shadow)">
-    <path d="M360 92 L548 150 L535 390 C527 515 456 594 360 632 C264 594 193 515 185 390 L172 150 Z"
-          fill="url(#silver)"/>
-    <path d="M360 116 L518 165 L506 383 C499 491 440 558 360 596 Z"
-          fill="url(#shieldBlue)"/>
-    <path d="M360 116 L202 165 L214 383 C221 491 280 558 360 596 Z"
-          fill="url(#shieldGreen)"/>
-    <path d="M360 116V596" stroke="#FFFFFF" stroke-opacity=".45" stroke-width="5"/>
-  </g>
-
-  <!-- SV monogram -->
-  <g filter="url(#shadow)">
-    <path d="M335 220 H260 C216 220 188 247 188 286 C188 319 207 339 245 348 L291 359 C307 363 314 370 314 381 C314 394 303 402 284 402 H202"
-          fill="none" stroke="#C8FF58" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M389 220 L430 407 L475 325 L520 407 L560 220"
-          fill="none" stroke="#19C9FF" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
-  </g>
-
-  <!-- lock -->
-  <g filter="url(#shadow)">
-    <path d="M318 292 V266 C318 225 346 198 380 198 C414 198 442 225 442 266 V292"
-          fill="none" stroke="url(#silver)" stroke-width="24" stroke-linecap="round"/>
-    <circle cx="380" cy="375" r="78" fill="url(#silver)" stroke="#8195A4" stroke-width="5"/>
-    <rect x="332" y="335" width="96" height="84" rx="16" fill="#EEF4F7"/>
-    <circle cx="380" cy="372" r="15" fill="#09243B"/>
-    <path d="M380 372v30" stroke="#09243B" stroke-width="12" stroke-linecap="round"/>
-  </g>
-
-  <path d="M228 170 Q360 118 492 170" fill="none" stroke="#FFFFFF" stroke-width="7" opacity=".65"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 850" role="img" aria-labelledby="title desc">
+<title id="title">SecureVault logo</title>
+<desc id="desc">SecureVault green and blue wordmark beneath a green and blue shield with a metallic lock and blue cloud.</desc>
+<defs>
+<linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#74ff19"/><stop offset=".5" stop-color="#28c84d"/><stop offset="1" stop-color="#087a2e"/></linearGradient>
+<linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#16d9ff"/><stop offset=".5" stop-color="#0a9bed"/><stop offset="1" stop-color="#0755c7"/></linearGradient>
+<linearGradient id="m" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff"/><stop offset=".45" stop-color="#b9c5cc"/><stop offset=".7" stop-color="#f8fbfd"/><stop offset="1" stop-color="#788995"/></linearGradient>
+<filter id="sh" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-opacity=".22"/></filter>
+<filter id="blur"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<ellipse cx="500" cy="575" rx="300" ry="25" fill="#9ed0e7" opacity=".42" filter="url(#blur)"/>
+<g filter="url(#sh)">
+<path d="M190 510c-70 0-125-48-125-108 0-51 40-94 91-104 13-75 78-131 158-131 42 0 80 14 112 37 31-55 90-91 157-91 97 0 174 69 187 161 70 7 125 63 125 132 0 75-62 104-137 104H190z" fill="url(#b)" stroke="#1690f1" stroke-width="5"/>
+<path d="M190 510c-70 0-125-48-125-108 0-51 40-94 91-104 13-75 78-131 158-131 42 0 80 14 112 37 31-55 90-91 157-91 97 0 174 69 187 161 70 7 125 63 125 132 0 75-62 104-137 104H190z" fill="none" stroke="#e5fbff" stroke-width="8" opacity=".75"/>
+</g>
+<g filter="url(#sh)">
+<path d="M500 48l260 76-18 333c-12 169-111 278-242 326-131-48-230-157-242-326l-18-333z" fill="url(#m)"/>
+<path d="M500 81l220 65-17 304c-10 132-84 229-203 276z" fill="url(#b)"/>
+<path d="M500 81l-220 65 17 304c10 132 84 229 203 276z" fill="url(#g)"/>
+<path d="M500 81v645" stroke="#fff" stroke-width="5" opacity=".45"/>
+</g>
+<g filter="url(#sh)">
+<path d="M432 210h-108c-58 0-94 37-94 88 0 44 27 71 77 83l72 17c21 5 30 13 30 28 0 18-15 29-39 29h-112" fill="none" stroke="#39c82c" stroke-width="55" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M558 210l55 256 62-115 62 115 55-256" fill="none" stroke="#08b9f5" stroke-width="55" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<g filter="url(#sh)">
+<path d="M433 300v-49c0-52 29-85 67-85s67 33 67 85v49" fill="none" stroke="url(#m)" stroke-width="27" stroke-linecap="round"/>
+<circle cx="500" cy="392" r="84" fill="url(#m)" stroke="#7f909b" stroke-width="6"/>
+<rect x="448" y="348" width="104" height="94" rx="17" fill="#eef4f7"/>
+<circle cx="500" cy="388" r="16" fill="#10283d"/>
+<path d="M500 388v34" stroke="#10283d" stroke-width="12" stroke-linecap="round"/>
+</g>
+<path d="M330 125q170-66 340 0" fill="none" stroke="#fff" stroke-width="8" opacity=".65"/>
+<text x="500" y="815" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="112" font-weight="700" letter-spacing="-5">
+<tspan fill="#16a52d">Secure</tspan><tspan fill="#087de3">Vault</tspan>
+</text>
 </svg>
