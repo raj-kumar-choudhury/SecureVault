@@ -1,0 +1,2 @@
+import type {ReactNode} from 'react';
+export function AuthCard({title,subtitle,children}:{title:string;subtitle?:string;children:ReactNode}){return <div className="auth-card"><div className="auth-card-heading"><h1>{title}</h1>{subtitle&&<p>{subtitle}</p>}</div>{children}</div>}
