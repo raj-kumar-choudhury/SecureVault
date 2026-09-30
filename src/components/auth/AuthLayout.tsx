@@ -1,0 +1,2 @@
+import type {ReactNode} from 'react';
+export function AuthLayout({children}:{children:ReactNode}){return <main className="auth-shell"><section className="auth-brand-panel"><div className="brand-content"><img src="/images/logo/securevault-logo.svg" alt="SecureVault" className="auth-logo"/><p>Your personal secure data vault.</p><div className="security-points"><span>Private by design</span><span>Multi-device access</span><span>Client-side encryption</span></div></div></section><section className="auth-form-panel">{children}</section></main>}
